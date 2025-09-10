@@ -1,0 +1,11 @@
+# Node.js dependencies
+node_modules
+
+# Turbo files
+.turbo
+
+# Next.js build output
+.next
+
+# Package builds
+dist/

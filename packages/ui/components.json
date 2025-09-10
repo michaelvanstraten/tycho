@@ -1,0 +1,21 @@
+{
+  "$schema": "https://ui.shadcn.com/schema.json",
+  "style": "new-york",
+  "rsc": true,
+  "tsx": true,
+  "tailwind": {
+    "config": "",
+    "css": "styles/globals.css",
+    "baseColor": "neutral",
+    "cssVariables": true,
+    "prefix": ""
+  },
+  "aliases": {
+    "components": "@tycho/ui/components",
+    "utils": "@tycho/ui/lib/utils",
+    "ui": "@tycho/ui/components",
+    "lib": "@tycho/ui/lib",
+    "hooks": "@tycho/ui/hooks"
+  },
+  "iconLibrary": "lucide"
+}
