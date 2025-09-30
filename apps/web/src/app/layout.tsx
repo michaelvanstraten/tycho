@@ -1,6 +1,7 @@
-import "./globals.css";
-
 import { Metadata } from "next";
+import { NuqsAdapter } from "nuqs/adapters/next/app";
+
+import "./globals.css";
 
 export const metadata: Metadata = {
   title: "Create Turborepo",
@@ -14,7 +15,9 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en" suppressHydrationWarning={true} data-lt-installed="true">
-      <body>{children}</body>
+      <body>
+        <NuqsAdapter>{children}</NuqsAdapter>
+      </body>
     </html>
   );
 }

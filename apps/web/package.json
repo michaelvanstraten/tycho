@@ -2,12 +2,15 @@
   "name": "web",
   "private": true,
   "scripts": {
-    "build": "next build",
-    "dev": "next dev"
+    "dev": "next dev --turbopack",
+    "build": "next build --turbopack",
+    "start": "next start"
   },
   "dependencies": {
-    "@repo/ui": "^0.0.1",
+    "@google-cloud/bigquery": "^8.1.1",
+    "@radix-ui/react-scroll-area": "^1.2.10",
     "next": "^15.5.2",
+    "nuqs": "^2.6.0",
     "react": "^19.1.1",
     "react-dom": "^19.1.1"
   },
